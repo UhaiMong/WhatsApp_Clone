@@ -1,11 +1,7 @@
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
-
-export default function Home() {
+export default function App() {
   return (
     <div>
-      <h1 className="bg-purple-700 text-green-50 h-full">Hello whatsapp</h1>
-      <Button variant={"ghost"}>Send</Button>
+      <h1>This page only for authenticate user</h1>
     </div>
   );
 }
